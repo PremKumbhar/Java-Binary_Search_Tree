@@ -1,8 +1,7 @@
 package com.bridgelabz.BinarySearchTree;
 
 public class Main {
-	/**
-	 * 
+	/*
 	 *  Procedure
 	 *  Create a Binary Search Tree  and checking the size of tree
 	 * ====================================================================
@@ -56,8 +55,10 @@ public class Main {
 		 */
 		int x = size.size(root);		
 		System.out.println("\nSize of Tree: "+x);
+		/*
+		 * 6. Searching for given key value whether it is present or not
+		 */
+		link.search(root, 63);
 
 	}
-
-
 }
