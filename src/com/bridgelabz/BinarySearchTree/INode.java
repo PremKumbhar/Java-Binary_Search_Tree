@@ -8,4 +8,18 @@ public class INode {
 	int data;
 	INode left;
 	INode right;
+	/*
+	 * 2. Method to get the size of the Binary Tree
+	 */
+	public static int size(INode node) {
+		return (size1(node));
+	}
+
+	private static int size1(INode node) {
+		if (node == null)
+			return (0);
+		else {
+			return (size(node.left) + 1 + size(node.right));
+		}
+	}
 }

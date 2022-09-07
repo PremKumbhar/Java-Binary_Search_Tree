@@ -3,7 +3,7 @@ package com.bridgelabz.BinarySearchTree;
 	public class BST extends INode {
 		/**
 		 * 
-		 * 1.Creating new node if there is no Binary Tree exists 
+		 * 1. Creating node to insert new subnodes to binary tree
 		 * 2. Method for printing the Binary Tree
 		 */
 
@@ -16,7 +16,7 @@ package com.bridgelabz.BinarySearchTree;
 		}
 
 		/*
-		 * 1. Creating new node if there is no Binary Tree exists
+		 * 1. Creating node to insert new subnodes to binary tree
 		 */
 		public INode insert(INode node, int k) {
 			if (node == null) {
@@ -42,4 +42,5 @@ package com.bridgelabz.BinarySearchTree;
 			System.out.print(node.data + " -> ");
 			printBST(node.right);
 		}
+
 }
